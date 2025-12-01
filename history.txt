@@ -1,0 +1,37 @@
+  333  git push -u origin main
+  334  exit
+  335  cd /c/TempLinux/
+  336  ls -al
+  337  git clone git@github.com:svetks0504-sudo/LesonsLinux.git
+  338  ls -al
+  339  cd LesonsLinux/
+  340  ls -al
+  341  git checkout -b feature
+  342  ls -al
+  343  date > REDME.md
+  344  ls -al
+  345  cat REDME.md 
+  346  git add README.md
+  347  git commit -m "Create REDME.md wiht date"
+  348  echo "$LESONS" >> gitignore
+  349  ls -al gitignore 
+  350  mv gitignore .gitignore 
+  351  git add REDME.md .gitignore 
+  352  git commit -m "Create REDME.md with date and .gitignore" 
+  353  git commit --amend -m "Add README and .gitignore ammend"
+  354  git push origin feature
+  355  ls -al
+  356  git status
+  357  git checkout main
+  358  git branch
+  359  git marge feature
+  360  git branch
+  361  git merge feature
+  362  git branch
+  363  git push origin main 
+  364  ls -al
+  365  git branch
+  366  pwd
+  367  git checkout main
+  368  git branch
+  369  history > history.txt
